@@ -1,12 +1,11 @@
 package dad.javafx.inventario;
 import java.io.IOException;
+
 import java.net.URL;
 import java.util.ResourceBundle;
 
 import javafx.beans.property.ListProperty;
 import javafx.beans.property.SimpleListProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -24,8 +23,6 @@ public class Controller implements Initializable{
 	}
 
 	//model
-			private StringProperty seleccionados=new SimpleStringProperty();
-			private StringProperty disponibles=new SimpleStringProperty();
 			private ListProperty<String> selecion=new SimpleListProperty<>(FXCollections.observableArrayList());
 			private ListProperty<String> disponible=new SimpleListProperty<>(FXCollections.observableArrayList());
 	//view

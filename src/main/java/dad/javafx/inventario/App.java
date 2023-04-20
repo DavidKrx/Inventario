@@ -12,7 +12,7 @@ public class App extends Application{
 	public void start(Stage primaryStage) throws Exception {
 		control=new Controller();
 		
-		primaryStage.setTitle("Calculadora");
+		primaryStage.setTitle("Inventario");
 		
 		primaryStage.setScene(new Scene(control.getGridpan()));
 	
